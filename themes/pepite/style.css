@@ -1,0 +1,188 @@
+/*
+Theme Name: Pepite
+Author: Alexis Dubois
+Author URI: 
+Description: Thème Pepite Creaj Idf
+*/
+body
+{
+	margin: 0;
+}
+header
+{
+	width: 100%;
+}
+#logo_head
+{
+	max-width: 900px;
+	margin: auto;
+	height: 100px;
+	position: relative;
+}
+#logo_head figure
+{
+	display: inline-block;
+	height: 100%;
+	position: absolute;
+	margin: 0;
+}
+#logo_head figure img
+{
+	height: 100%;
+}
+#head_pepite_logo
+{
+	left: 5px;
+}
+#head_paris13_logo
+{
+	right: 5px;
+}
+.main_menu_content
+{
+	text-align: center;
+	background-color: #01adb7 ;
+	padding-top: 3px;
+	padding-bottom: 3px;
+
+}
+.main_menu
+{
+	margin: 0;
+
+}
+.main_menu li
+{
+	display: inline-block;
+	list-style: none;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-decoration: none;
+
+}
+.main_menu li a
+{
+	text-decoration: none;
+	color: white;
+	position: relative;
+}
+#main_footer
+{
+	background-color: #dfdfdf;
+	height: 25px;
+	width: 100%;
+}
+#main_footer_content div
+{
+
+	vertical-align: middle;
+	position: absolute;
+
+}
+#main_footer_content
+{
+	margin: auto;
+	max-width: 900px;
+	position: relative!important;
+}
+#rs_links
+{
+	right: 5px;
+}
+.rs_link
+{
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0;
+} 
+.footer_menu_content
+{
+	left: 5px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+.footer_menu_content *
+{
+	display: inline-block;
+	vertical-align: middle;
+}
+.footer_menu
+{
+	margin: 0;
+	padding: 0;
+}
+.footer_menu li
+{
+	display: inline-block;
+	list-style: none;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-decoration: none;
+}
+.footer_menu li a
+{
+	text-decoration: none;	
+}
+#head_footer
+{
+	margin: auto;
+	max-width: 900px;
+	text-align: center;
+}
+#partenaire_content
+{
+	height: 100px;
+}
+#partenaire_content figure
+{
+	display: inline-block;
+	height: 100%;
+	width:100px;
+}
+#partenaire_content figure img
+{
+	width: 100%;
+}
+#container
+{
+	max-width: 900px;
+	margin: auto;
+	margin-top: 20px;
+}
+/* widgets */
+/* pepite_agenda */
+
+.pep_event_wrapper 
+{
+	margin: auto;
+}
+.pep_event_wrapper *
+{
+	margin: 0;
+}
+.pep_event_wrapper div
+{
+	display: inline-block;
+	vertical-align: middle;
+}
+.pep_event_date
+{
+	text-align: center;
+	border : 2px solid #ff42b6;
+	color: #ff42b6;
+}
+.pep_event_date
+{
+	padding: 5px 3px 5px 3px;
+	margin: 3px;
+	margin-right: 15px;
+}
+.pep_event_date .pep_event_date_day
+{
+	font-size: 30px;
+	font-weight: bold;
+}
+.pep_event_content
+{
+	width:85%;
+}
